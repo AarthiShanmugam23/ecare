@@ -1,0 +1,39 @@
+
+<html>
+      <head>
+      <p name="qty"></p>
+        <script type="text/javascript" >
+            function greet()
+            {
+                if (stkdet.qty.value < 50)
+                    
+            {
+                  
+                    
+                     alert("Getting Low stock :" + document.forms["frm1"]["mname"].value + "!!");
+             
+            }
+            else
+                alert("Sufficient stock available:" + document.forms["frm1"]["mname"].value + "!!");
+            }
+            
+            
+                 
+        </script>
+    </head>
+      <body bgcolor="grey" >
+          <form name="frm1" method="post" action="stock1.jsp">
+              <br>
+              <br>
+              <br>
+              <br>
+              <center>MedicineName:<input type="text" name="mname">
+                  <br>
+                  <br>
+                  
+              <center> <button type="submit" onclick="greet()">CHECK DETAILS</button>
+          </form>
+      </body>
+</html>
+              
+  

@@ -1,0 +1,31 @@
+
+<html>
+ <head>
+        <script type="text/javascript">
+            function greeting()
+            {
+            alert("Stock Added Successfully" )
+           
+                    
+            }
+        </script>
+    </head>
+
+    <body bgcolor="grey">
+        <form name="frm1"method="post" action="addstock.jsp"onsubmit="greeting()">
+       
+        <h4><b><font color="blue"><center>ADD STOCK</center></font></h4>
+<table border="5" align="center" >
+    
+    <tr><td><font color="red">Medicine Id:</td><td><input type="text" name="mid"></td></tr>
+    <tr><td><font color="red">Medicine Name</td><td><input type="text" name="mname"></td></tr>
+     <tr><td><font color="red">Quantity:</td><td><input type="text" name="qty"></td></tr>
+     <tr><td><font color="red">Rate:</td><td><input type="text" name="rate"></td></tr>
+      <tr><td><font color="blue">&ensp;&ensp;&ensp;&ensp;&ensp;<button  type="submit"  onclick="location='index.html'">ADD ITEM</button></td>
+    
+</table>
+       
+</form>
+         </body>
+
+</html>

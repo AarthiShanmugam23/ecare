@@ -1,0 +1,44 @@
+
+<html>
+    <head>
+        <script type="text/javascript">
+            function greeting()
+            {
+            alert("Registered successfully" + document.forms["frm1"]["Name"].value + "!")
+                    
+            }
+        </script>
+    </head>
+    
+    <body bgcolor="grey">
+        <form name="frm1" method="post" action="dregister.jsp"onsubmit="greeting()">
+       
+        <h4><b><font color="blue"><center>DOCTOR REGISTRATION FORM</center></font></h4>
+<table border="5" bgcolor="pink"align="center" >
+    
+    <tr><td><font color="red">DoctorId:</td><td><input type="text" name="Did"></td></tr>
+    <tr><td><font color="red">Type:</td><td><select name="Type" size="2">
+                <option>Neurologist</option>
+                <option>
+                    Stomach
+                </option>
+                <option>Lungs</option>
+                <option>General Physician</option>
+                <option>Liver</option>
+                <option>ENT</option>
+                <option>Heart</option>
+            </select></td></tr>
+    <tr><td><font color="red">Name:</td><td><input type="text" name="Name"></td></tr>
+    
+    <tr><td><font color="red">Password:</td><td><input type="password" name="pass"></td></tr>
+    <tr><td><font color="red">Qualification:</td><td><input type="text" name="qual"></td></tr>
+    <tr><td><font color="red">Mobileno:</td><td><input type="text" name="mobno"></td></tr>
+    <tr><td><font color="red">emailid:</td><td><input type="text" name="eid"></td></tr>
+   <tr><td><font color="blue"><center>&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;<button type="submit" onclick="location='patientlogin.html'">SIGN UP</button>&ensp;&ensp;&ensp;&ensp;&ensp;<button  type="button" onclick="location='register.html'">BACK</button></td>
+    
+</table>
+        </body>
+                     </form>
+
+        </html>
+

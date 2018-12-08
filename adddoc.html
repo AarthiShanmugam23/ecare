@@ -1,0 +1,43 @@
+
+<html>
+    <head>
+        <script type="text/javascript">
+            function greeting()
+            {
+            alert("Registered successfully" + document.forms["frm1"]["Name"].value + "!")
+                    
+            }
+        </script>
+    </head>
+    <body bgcolor="grey">
+        <form  name="frm1" method="post" action="adddoc.jsp" onsubmit="greeting()">
+       
+        <h4><b><font color="blue"><center>DOCTOR REGISTRATION FORM</center></font></h4>
+<table border="5" align="center" >
+    
+    <tr><td><font color="red">Doctor Id:</td><td><input type="text" name="Did"></td></tr>
+<tr><td><font color="red">Type:</td><td><select  type="dropdown"name="Type" size="2">
+                <option value="Neurologist">Neurologist</option>
+                <option value="Stomach">
+                    Stomach
+                </option>
+                <option value="Lungs">Lungs</option>
+                <option value="General Physician">General Physician</option>
+                <option value="Liver">Liver</option>
+                <option value="ENT">ENT</option>
+                <option value="Heart">Heart</option>
+            </select></td></tr>
+       
+    <tr><td><font color="red">Name:</td><td><input type="text" name="Name"></td></tr>
+    <tr><td><font color="red">Password:</td><td><input type="password" name="pass"></td></tr>
+    <tr><td><font color="red">Qualification:</td><td><input type="text" name="qual"></td></tr>
+    <tr><td><font color="red">Mobile no:</td><td><input type="text" name="mobno"></td></tr>
+    <tr><td><font color="red">email id:</td><td><input type="text" name="eid"></td></tr>
+    <tr><td><font color="blue"><center>&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;<button type="submit">SIGN UP</button></td>
+    
+</table>
+        </body>
+                     </form>
+
+        </html>
+
