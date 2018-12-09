@@ -1,0 +1,75 @@
+<html>
+   
+ <head>
+     
+   <script type="text/javascript">
+
+
+var un,pass;
+
+
+function fn()
+
+
+{
+if(log.Name.value=="Gowtham" && log.m.value=="papu")
+
+
+{
+
+
+alert("Login Successful: You are authorised");
+
+
+}
+
+
+else
+
+
+{
+
+
+alert("Invalid Security Details");
+
+
+}
+
+window.location.href='adicon.html';
+
+
+}
+
+
+</script>
+
+
+    
+</head>
+    
+<body  bgcolor="grey">
+ 
+   <form  name="log" method="post"action="adlogin.jsp">
+
+<center>
+<table bgcolor="pink" border="2">
+<caption><font color="red"><h2><b>ADMIN LOGIN</b></h2></font></caption>
+<tr><td><font color="red">AdminName:</td><td><input type="text" name="Name"></font></td></tr><br><br>
+
+<tr><td><font color="red">Password:</td><td><input type="password" name="pass"id="m"></font></td></tr><br><br>
+<br>
+<br>
+
+<tr><td></center>&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;<button type="button" onclick="fn()">SIGN IN</td></tr>
+
+    
+   
+</table>
+    
+<label>
+    <input type="checkbox" checked="checked">Remember me</label>
+    
+
+    </form>
+</body>
+</html>
