@@ -1,6 +1,16 @@
 --
 -- The inital data for system tables of MySQL Server
 --
+/*
+Source Server          : database
+Source Server Version  : 50051
+Source Host            : localhost:3306
+Source Database        : ecare
+Target Server Type     : MYSQL
+Target Server Version  : 50051
+File Encoding          : 65001
+Date: 2018-12-13 8:12:05
+*/
 
 -- When setting up a "cross bootstrap" database (e.g., creating data on a Unix
 -- host which will later be included in a Windows zip file), any lines
